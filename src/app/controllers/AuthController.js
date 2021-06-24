@@ -7,7 +7,7 @@ const mailer = require("../../modules/mailer");
 const path = require("path");
 const hb = require("handlebars");
 const fs = require("fs");
-const { findByPk } = require("../models/User");
+
 
 module.exports = {
   async autenticate(req, res) {
