@@ -68,8 +68,8 @@ module.exports = {
         {
           to: email,
           from: "beterrababir23@gmail.com",
-          subject: "Vê se foi o token aí", // Subject line
-          text: "olá, token: {token}", // plain text body
+          subject: "Password Reset", // Subject line
+          text: "Hello!", // plain text body
           html: template, // html body
           context: { token },
         },
